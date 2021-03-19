@@ -1,0 +1,71 @@
+
+.new-task-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+.tasks-added {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #4CAE50;
+    padding: 15px;
+    margin: 5px;
+}
+
+.task .title a {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    /*padding: 25px;*/
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+.pagination {
+
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
